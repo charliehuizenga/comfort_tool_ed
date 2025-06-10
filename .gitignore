@@ -38,3 +38,7 @@ website/node_modules
 website/i18n/*
 
 deploy_comfort_tool.ps1
+/.vs/VSWorkspaceState.json
+/.vs/slnx.sqlite
+/.vs/ProjectSettings.json
+/.vs/comfort_tool_ed/v17/.suo

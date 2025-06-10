@@ -7,6 +7,7 @@ if (typeof module !== "undefined" && module.exports) {
 }
 
 comf.relativeAirSpeed = function (v, met) {
+  return v;
   if (met > 1) {
     return v + 0.3 * (met - 1);
   } else {
@@ -15,6 +16,7 @@ comf.relativeAirSpeed = function (v, met) {
 };
 
 comf.dynamicClothing = function (clo, met) {
+  return clo;
   if (met > 1.2) {
     return clo * (0.6 + 0.4 / met);
   } else {
